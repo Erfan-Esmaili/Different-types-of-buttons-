@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Slab', serif; 
+    
+}
+body{
+    background-color: rgb(104, 115, 121);
+    -webkit-user-select:none    ;
+}
+.header{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 90vh;
+    border: 1px solid;
+}
+.shape{
+    background-color: rgb(211, 47, 47);
+    width: 365px;
+    height: 90vh;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    right: 13%;
+    position: absolute;
+}
+.circle{
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    right: 14%;
+    top: 20%;
+    background-image: url(code5/company.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width:30%;
+    height: 50vh;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fab{
+    margin: 4px;
+    cursor: pointer;
+    font-size: 19px;
+    color: rgb(211, 47, 47);
+
+}
+span{
+    font-size: 65px;
+    color: rgb(211, 47, 47);
+    font-style: italic;
+}
+h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    
+}
+p{
+    font-size: 19px;
+    color: rgb(94, 91, 91);
+
+}
